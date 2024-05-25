@@ -11,3 +11,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 rustler = { version = "0.32", features = ["nif_version_2_17"] }
+ibm_db = "1.0.5"
