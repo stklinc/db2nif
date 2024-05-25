@@ -1,0 +1,13 @@
+[package]
+name = "db2nif_rustibmdb"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "db2nif_rustibmdb"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = { version = "0.32", features = ["nif_version_2_17"] }
